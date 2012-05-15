@@ -1,28 +1,27 @@
-<!-- 1401 -->
+<!-- 1401 words -->
+<!-- To do: Sutherland talk, and notes (+Ilya), spend 10-20 minutes on
+games as cognitive tools, and on Bret Victor's work -->
 
-Very rough and incomplete working notes on how to create software
-tools that "enable people to understand and create in unprecedentedly
-powerful ways" (Bret Victor).  I shall refer to such tools as
-_cognitive tools_.
+Very rough, incomplete (and often wrong) working notes on how to
+create software tools that "enable people to understand and create in
+unprecedentedly powerful ways" (Bret Victor).  I shall refer to such
+tools as _cognitive tools_.
+
+The purpose of the notes initially is merely to think about the
+problem, to look at what other people have thought about the problem,
+and to collect ideas for projects in the area.
 
 **List of cognitive tools:** reading, writing, conversation,
   Mathematica, the multiplication algorithm, oblique strategies, the
   calendar, any method for monitoring oneself (e.g., lifelogging),
   money, attention managers, games, flashcards, libraries, programming
-  languages, github, Google, table of contents, page numbers.
+  languages, github, Google, table of contents, page numbers, cities.
 
 **What can I contribute?  Where, if anywhere, is the comparative
   advantage to be found?**
 
 **What principles can we use to build cognitive tools?**
 
-**How to deal with abstraction?** A way of dealing with abstraction is
-to find multiple representations for the concept one is dealing with.
-In particular, it helps us dramatically when we can find ways of
-representing a new abstraction in terms of something else that we
-already have ways of working with.  Think of the way we can understand
-Hermitian matrices in terms of their eigenvalue decomposition, for
-example.
 
 # What can we learn from brain research?
 
@@ -105,16 +104,21 @@ One interesting cognitive technology is the index.
 
 1. Desire: People need to be responsible for, and reap the benefits
 of, their own learning.  If they are, they will take ferocious control
-over their own learning.  The canonical mistake of the education
-system is to ignore this fact: a 14 year-old in a classroom has no
-desperate personal need to learn, and so is not a very effective
-learner.  Once someone develops a very strong desire to become more
-effective, then they begin to seek and benefit from learning
-opportunities at a tremendous rate.
+over their own learning.  A huge mistake made by the education system
+is to ignore this fact: most 14 year-olds in the classroom have no
+desperate personal need to learn, and there is only a little that even
+the best-intentioned teachers can do to change that.  Indeed, it is a
+natural consequence of being in the classroom: the work done there
+matters only a little, and smart 14 year olds know it, and respond
+with an appropriate attitude.  Unfortunately, someone without a strong
+desire to learn is probably not a very effective learner.  Once
+someone develops a very strong desire to become more effective, then
+they begin to seek and benefit from learning opportunities at a
+tremendous rate.
 
-2. Environment trumps everything except desire.  Perhaps 50,000 people
-lived in Florence in the mid 1400s.  People born there (or in the
-countryside just outside) included Michaelangelo, Botticelli, and
+2. Environment trumps everything except desire.  Perhaps 100,000
+people lived in Florence in the mid 1400s.  People born there (or in
+the countryside just outside) included Michaelangelo, Botticelli, and
 Donatello, as well as many other famous (but not quite as immortal)
 artists.  Now, you start to do back-of-the-envelope calculations, and
 someone born in Florence at that time was perhaps 10,000 times more
@@ -123,10 +127,54 @@ other words, the best way to become a great artist wasn't to be born
 very talented, or be inspired by some special muse or whatever.  It
 was to live in Florence in the late 1400s.  That choice of environment
 completely swamped "natural talent" and just about every other
-variable I can think of (except desire).
+variable I can think of, _except_ desire.
 
-I'd say these are very close to necessary and sufficient conditions.  (2 
-is not quite necessary.)
+I'd say these conditions are very close to necessary and sufficient
+conditions.  Conditions 2 is not quite necessary --- one can think of
+examples where it has not been met.  But as the Florentine example
+shows, it is tremendously important, probably far more important than
+we think.
+
+**Much of what we believe about learning is false:** This is a
+  corollary to the above remarks.  It follows from the observation
+  that schools get something very basic wrong: they don't understand
+  the primary nature of desire for learning, and how difficult it is
+  to develop that desire when you treat children in the paternalistic
+  manner that underlies schooling.  This is an example of a false
+  belief, in this case one that's predicated on a (very widespread)
+  **false model** of how we learn.  Another good example of how we use
+  false models comes from Tim Gallwey's work on the inner game,
+  showing how conventional models of coaching fail, since they
+  actually create internal interference.  A consequence of all this is
+  that I should feel free to **re-examine the basics**, and to
+  **identify (and then challenge) conventional wisdom**.
+
+# Dealing with abstraction
+
+**How to deal with abstraction?** _finding multiple representations_,
+_simplifying_, _approximating_, _finding the salient feature_.  All
+these may be used in combination.  One way of building software tools
+to help us think is to build software tools that make it easier to do
+these things.
+
+_Multiple representations:_ It helps us dramatically when we can find
+ways of representing a new abstraction in terms of something else that
+we already have ways of working with.  Think of the way we can
+understand Hermitian matrices in terms of their eigenvalue
+decomposition, for example.
+
+_Simplifying the abstraction_: Consider the way we can simplify a
+topological space down to a number, by counting the number of
+connected components.  This provides information that can, for
+example, be used to prove that two topological spaces are not
+homeomorphic.
+
+_Approximating the abstraction:_ A cow is not perfectly spherical, but
+to a good approximation... To work, we need to develop a good
+understanding of how to control the impact of the approximation.
+
+_Finding the salient feature:_ This is often the key to solving
+problems.  
 
 # Games
 
@@ -148,6 +196,8 @@ entertainment doesn't know the first thing about either."
 
 **Why do we easily tolerate repetition of some material but not of
   others?**
+
+**How much does it help to add sound?** I'll bet it helps a lot.
 
 # Source material
 
@@ -173,6 +223,12 @@ entertainment doesn't know the first thing about either."
 **Get Victor's principle more correct:**
 
 **Explore the links on Victor's page as stimulus:**
+
+# Project ideas
+
+**Attention manager:**
+
+**Essay on how online tools can amplify our collective intelligence:**
 
 # Other material
 
