@@ -1,24 +1,28 @@
+<!-- 1401 -->
+
 Very rough and incomplete working notes on how to create software
 tools that "enable people to understand and create in unprecedentedly
 powerful ways" (Bret Victor).  I shall refer to such tools as
 _cognitive tools_.
 
-**List of cognitive tools:** writing, reading, conversation,
+**List of cognitive tools:** reading, writing, conversation,
   Mathematica, the multiplication algorithm, oblique strategies, the
-  calendar, any kind of monitor (like my logging), money, attention
-  managers, games, flashcards, libraries, programming languages,
-  github, Google, table of contents, page numbers. 
+  calendar, any method for monitoring oneself (e.g., lifelogging),
+  money, attention managers, games, flashcards, libraries, programming
+  languages, github, Google, table of contents, page numbers.
 
 **What can I contribute?  Where, if anywhere, is the comparative
   advantage to be found?**
 
 **What principles can we use to build cognitive tools?**
 
-**How to deal with abstraction?** The best way of dealing with
-abstraction is to find multiple representations for it.  In
-particular, it helps us dramatically when we can find ways of
+**How to deal with abstraction?** A way of dealing with abstraction is
+to find multiple representations for the concept one is dealing with.
+In particular, it helps us dramatically when we can find ways of
 representing a new abstraction in terms of something else that we
-already have ways of working with.
+already have ways of working with.  Think of the way we can understand
+Hermitian matrices in terms of their eigenvalue decomposition, for
+example.
 
 # What can we learn from brain research?
 
@@ -33,6 +37,9 @@ already have ways of working with.
   
 **Why not go and talk to some brain scientists to find out what the
   limits and the bottlenecks are?**
+
+**Augmenting our senses:** Things like telescopes, microscopes, or
+  infrared cameras are old examples of cognitive tools.
 
 # Writing as a cognitive tool
 
