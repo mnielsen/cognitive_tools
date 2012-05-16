@@ -1,8 +1,13 @@
-<!-- 1938 words -->
+<!-- 2901 words -->
 
 <!-- To do: 
 
-Go back to Victor's site.
+Revise the first two sections.
+
+Revise the section on active reading and explorable explanations.
+
+Go back to Victor's site, and finish reading the explorable
+explanations stuff.
 
 -->
 
@@ -24,6 +29,15 @@ problem, and to collect ideas for projects in the area._
 
 **What principles can we use to build cognitive tools?**
 
+**The comparison to self-help:** Self-help gets a bad rap.  Many of
+  these software tools have a similar goal, though, which is to
+  improve the way we think.  Yet, somehow, a concrete tool like (say)
+  org mode really does seem to have significantly more impact than
+  lots of what you see in the self-help books.  The right kind of
+  metaphor is that it's executable self-help, or even active
+  self-help.  That shift from passive self-help (which is often vague
+  an unactionable) to active self-help (which is by its nature very
+  concrete) seems to make a big difference.
 
 # What can we learn from brain research?
 
@@ -42,6 +56,14 @@ problem, and to collect ideas for projects in the area._
 **Augmenting our senses:** Things like telescopes, microscopes, or
   infrared cameras are old examples of cognitive tools.
 
+**Vividness:** Intellectuals are often biased in favour of verbal
+  content (especially written content), and undervalue other types of
+  content.  I've talked to people whose impression of the movie
+  _Avatar_ was that the plot and dialogue wasn't very good.  If verbal
+  content is everything then that's a reasonable point of view.  But
+  _Avatar_ has astounding non-verbal content, and those people largely
+  missed that content, or else got hung up on details.
+    
 # Writing as a cognitive tool
 
 **What is it about writing that makes writing powerful as a tool for
@@ -211,9 +233,10 @@ entertainment doesn't know the first thing about either."
 
 # Active reading and explorable explanations
 
-This is an idea of Bret Victor's.  The basic idea is to make documents
-truly interactive so that elements of the document can modified and,
-in real time, other elements will change in response.
+This is an idea of Bret Victor's.  The idea is to make documents
+interactive so that the read can easily modify elements of the
+document and, in real time, other elements will change in response.
+It's a way of exploring what's going on.
 
 **Reactive documents:** A synthesis of spreadsheet and document.
   Elements of the document can be modified, which in turn updates
@@ -234,7 +257,45 @@ in real time, other elements will change in response.
 > interpret the results of the model, and present them to the reader
 > via language and graphics.
 
-**What happens when we step outside the model?** 
+**Explorable explanations enable discovery:** You can play with the
+  parameters, and by looking at the consequences you start to have
+  suspicions about what is true, and may even be able to empirically
+  establish some of your suspicions.
+  
+**Explorable explanations stimulate questions**
+
+**Interactivity is not the point; combining exploration and
+  explanation is the point:** Here's Victor on this:
+
+> It's tempting to be impressed by the novelty of an interactive
+> widget such as this, but the interactivity itself is not really the
+> point. The primary point of this example -- the reason I call it an
+> "explorable explanation" -- is the subtlety with which the
+> explorable is integrated with the explanation.  
+>
+> Like the proposition example earlier, the filter description works
+> as a static explanation -- it can be read like normal text. The
+> reader is not forced to interact in order to learn. The reader
+> interacts if he wants to go deeper, if he has piqued curiosity or
+> unanswered questions. There are no UI elements screaming for
+> attention. The reader is not transported off to a separate
+> "interactive" context. Instead, the reader simply nudges the
+> examples that the author has already presented.
+>
+> Most interactive widgets dump the user in a sandbox and say "figure
+> it out for yourself". Those are not explanations. To me, an
+> essential aspect of the "explorable explanation" concept is that the
+> author holds up his end of the conversation. The author must guide
+> the reader, and provide a structure for the learning
+> experience. Only then can the reader respond, by asking and
+> answering the questions that the author provokes.
+
+I guess people often draw a distinction between a model we can play
+with (like, for example, a spreadsheet), and an explanation.  Victor's
+key idea here is to _integrate_ the two, and that we gain something by
+doing that integration.  
+
+**What happens when we step outside the model?** This is 
 
 **Use cases:** With something like this I think it's a mistake to ask
   the question "So what could it be used for?"  Instead, it'd be
@@ -244,18 +305,28 @@ in real time, other elements will change in response.
 **Building a simplifed version of tangle:** I took a look at the
   library.  It's very nice.  However, the API is pretty complicated.
   It'd be nice to have a templating system that made it a lot easier
-  to use tangle.
+  to use tangle.  Maybe a Wordpress plugin that made it trivially
+  possible to compile to tangle?
 
 **What's a neat reactive document that I could write?** Maybe one that
   showed off the ideas of relativity?  Maybe one that did some kind of
   scenario planning along the lines championed by the futurists?
-  
+  Maybe I could include it in my Clock of the Long Now essay, for the
+  analysis of the relativistic clock?  
+
+**Explorable examples:** Victor gives a very beautiful example of a
+  digital filter where you can literally move the parameters of the
+  filter around, and dynamically see how the frequency response
+  changes.
  
 **Could we combine tangle with mathjax?** That'd be a fun project!
 
-**Why do reactive 
-  
+**Text as an environment to think in:** Here's Victor:
 
+> The goal of Explorable Explanations is to change people's
+> relationship with text. People currently think of text as
+> information to be consumed. I want text to be an environment to
+> think in.
 
 # Source material
 
@@ -292,14 +363,33 @@ in real time, other elements will change in response.
 
 **Task management:** One of the hardest things we can do.
 
+**Why are all these projects of Victor's just at the prototype
+  stage?** I think the answer is that there's really two very hard
+  tasks here.  One is developing interesting prototypes (which Victor
+  has done, as PARC did, and so on).  The other is developing those
+  prototypes into mass market products.  Both tasks are tremendously
+  difficult to do.
+  
 **What would it mean to make mathematics executable?**
 
 **"The interface fundamentally determines behaviour":**
   ([Rory Sutherland](http://www.ted.com/talks/rory_sutherland_life_lessons_from_an_ad_man.html)
-  This is an improved version of "the medium is the message".
+  This is another perspective on the idea that "the medium is the
+  message".
 
 **What can we learn from?**
 
 **Who is working on this?  Which aspects are there too many people
 working on?  Which aspects are there too few people working on?  What
 are some ideas I can bring in from left field?** MIT Media Lab.
+
+**Corporate environments versus academia:** It's interesting to think
+  about the environments in which one can do this kind of work.
+  Corporations are usually design to take prototypes and turn them
+  into products.  Academia funnels people toward a few areas deemed
+  fashionable (often for spurious reasons), and draws the
+  highest-expertise people out of work at the coalface.  This is not a
+  recipe for success.
+
+**Why aren't corporations good at the full prototype-product
+  pipeline?**
