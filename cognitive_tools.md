@@ -2,14 +2,12 @@
 <!-- To do: Sutherland talk, and notes (+Ilya), spend 10-20 minutes on
 games as cognitive tools, and on Bret Victor's work -->
 
-Very rough, incomplete (and often wrong) working notes on how to
+_Very rough, incomplete (and often wrong) working notes on how to
 create software tools that "enable people to understand and create in
 unprecedentedly powerful ways" (Bret Victor).  I shall refer to such
-tools as _cognitive tools_.
-
-The purpose of the notes initially is merely to think about the
-problem, to look at what other people have thought about the problem,
-and to collect ideas for projects in the area.
+tools as **cognitive tools**.  The purpose of the notes is to think
+about the problem, to look at what other people have thought about the
+problem, and to collect ideas for projects in the area._
 
 **List of cognitive tools:** reading, writing, conversation,
   Mathematica, the multiplication algorithm, oblique strategies, the
