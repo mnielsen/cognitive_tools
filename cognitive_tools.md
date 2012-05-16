@@ -1,8 +1,12 @@
-<!-- 1401 words -->
-<!-- To do: Sutherland talk, and notes (+Ilya), spend 10-20 minutes on
-games as cognitive tools, and on Bret Victor's work -->
+<!-- 1938 words -->
 
-_Very rough, incomplete (and often wrong) working notes on how to
+<!-- To do: 
+
+Go back to Victor's site.
+
+-->
+
+_Very rough and incomplete (and often wrong) working notes on how to
 create software tools that "enable people to understand and create in
 unprecedentedly powerful ways" (Bret Victor).  I shall refer to such
 tools as **cognitive tools**.  The purpose of the notes is to think
@@ -176,14 +180,22 @@ problems.
 
 # Games
 
-**Are games the only way?** Marshall McLuhan once commented that
-"Anyone who tries to make a distinction between education and
-entertainment doesn't know the first thing about either."
+**What can we learn from games?**
+
+**Why are so many educational games terrible?** I think the problem is
+  that many of the theories from the educational literature aren't
+  very good.
+
 
 **What makes games such a great tool for thought?**
   [Watch this guy play Tetris](http://www.youtube.com/watch?feature=player_detailpage&v=jwC544Z37qo#t=171s).
   I won't spoil the surprise, but the last minute or so is almost
   beyond belief.
+
+**Are games the only way?** Marshall McLuhan once commented that
+"Anyone who tries to make a distinction between education and
+entertainment doesn't know the first thing about either."
+
 
 **People get amazingly good at games, very, very quickly.  Why is
   this?  Why do they get good so much faster than they do with other
@@ -196,6 +208,54 @@ entertainment doesn't know the first thing about either."
   others?**
 
 **How much does it help to add sound?** I'll bet it helps a lot.
+
+# Active reading and explorable explanations
+
+This is an idea of Bret Victor's.  The basic idea is to make documents
+truly interactive so that elements of the document can modified and,
+in real time, other elements will change in response.
+
+**Reactive documents:** A synthesis of spreadsheet and document.
+  Elements of the document can be modified, which in turn updates
+  other parts of the document.  Victor has a Javascript library,
+  [tangle](https://github.com/worrydream/Tangle), which can be used to
+  author reactive documents.  I could potentially write a reactive
+  document for my blog.  Here's a
+  [WordPress page](http://codex.wordpress.org/Using_Javascript) about
+  how to include Javascript in just a single post.
+  
+**The advantage over spreadsheets:** Victor makes the point that while
+  spreadsheets are great, they don't explain the model that they
+  implement.  Reactive documents could _explain_ the model and
+  simultaneously allow people to _explore_ the model.  Here's Victor:
+  
+> "a spreadsheet is not an explanation.  It is merely a dataset and
+> model; it cannot be read.  An explanation requires an author, to
+> interpret the results of the model, and present them to the reader
+> via language and graphics.
+
+**What happens when we step outside the model?** 
+
+**Use cases:** With something like this I think it's a mistake to ask
+  the question "So what could it be used for?"  Instead, it'd be
+  better to simply try out lots of use cases, and see what works well,
+  and what doesn't.
+  
+**Building a simplifed version of tangle:** I took a look at the
+  library.  It's very nice.  However, the API is pretty complicated.
+  It'd be nice to have a templating system that made it a lot easier
+  to use tangle.
+
+**What's a neat reactive document that I could write?** Maybe one that
+  showed off the ideas of relativity?  Maybe one that did some kind of
+  scenario planning along the lines championed by the futurists?
+  
+ 
+**Could we combine tangle with mathjax?** That'd be a fun project!
+
+**Why do reactive 
+  
+
 
 # Source material
 
