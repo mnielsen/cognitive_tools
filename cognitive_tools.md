@@ -11,33 +11,32 @@ explanations stuff.
 
 -->
 
-_Very rough and incomplete (and often wrong) working notes on how to
+*Very rough and incomplete (and often wrong) working notes on how to
 create software tools that "enable people to understand and create in
 unprecedentedly powerful ways" (Bret Victor).  I shall refer to such
 tools as **cognitive tools**.  The purpose of the notes is to think
-about the problem, to look at what other people have thought about the
-problem, and to collect ideas for projects in the area._
+about the problem, to understand some of what other people have
+thought about the problem, and to collect project ideas.*
 
-**List of cognitive tools:** reading, writing, conversation,
-  Mathematica, the multiplication algorithm, oblique strategies, the
-  calendar, any method for monitoring oneself (e.g., lifelogging),
-  money, attention managers, games, flashcards, libraries, programming
-  languages, github, Google, table of contents, page numbers, cities.
+**Cognitive tools to think about:** reading, writing, conversation,
+  any algorithm, Mathematica, oblique strategies, the calendar, any
+  method for monitoring oneself (e.g., lifelogging), money, attention
+  managers, games, flashcards, libraries, programming languages,
+  github, Google, table of contents, page numbers, cities.
 
-**What can I contribute?  Where, if anywhere, is the comparative
+**What can I contribute?  Where, if anywhere, is my comparative
   advantage to be found?**
 
 **What principles can we use to build cognitive tools?**
 
 **The comparison to self-help:** Self-help gets a bad rap.  Many of
   these software tools have a similar goal, though, which is to
-  improve the way we think.  Yet, somehow, a concrete tool like (say)
-  org mode really does seem to have significantly more impact than
-  lots of what you see in the self-help books.  The right kind of
-  metaphor is that it's executable self-help, or even active
-  self-help.  That shift from passive self-help (which is often vague
-  an unactionable) to active self-help (which is by its nature very
-  concrete) seems to make a big difference.
+  improve the way we think.  Yet a concrete tool like (say) org mode
+  seems to have significantly more impact than lots of what you see in
+  the self-help books.  It's a type of executable or active self-help.
+  That shift from passive self-help, which is often vague and
+  unactionable, to active self-help (which is by its nature very
+  concrete) makes a big difference.
 
 # What can we learn from brain research?
 
@@ -46,23 +45,32 @@ problem, and to collect ideas for projects in the area._
 
 **Are there ways we could overcome the well-known limits of working
   memory?** I wonder if there's a way of using visual cues to
-  effectively outsource working memory.  In some ways we do this when
-  we multiply two numbers on paper.  Might there be a slicker way we
-  can do this more generally?
+  effectively outsource working memory?  We already do this, for
+  example, when we multiply two numbers on paper.  Might there be a
+  slick way we can do this more generally?
   
-**Why not go and talk to some brain scientists to find out what the
-  limits and the bottlenecks are?**
+**Why not ask some brain scientists what the limits and bottlenecks of
+  our minds are?** My sense is that one thing we could do with a lot
+  more of in our lives is the right cues.
 
 **Augmenting our senses:** Things like telescopes, microscopes, or
   infrared cameras are old examples of cognitive tools.
 
-**Vividness:** Intellectuals are often biased in favour of verbal
-  content (especially written content), and undervalue other types of
-  content.  I've talked to people whose impression of the movie
-  _Avatar_ was that the plot and dialogue wasn't very good.  If verbal
-  content is everything then that's a reasonable point of view.  But
-  _Avatar_ has astounding non-verbal content, and those people largely
-  missed that content, or else got hung up on details.
+**I don't understand what makes something memorable:** Why, when I
+  watch a good movie trailer or listen to a great piece of music, do I
+  remember it? What makes an explanation memorable?  What makes
+  something *vivid*?
+  
+**The poverty of the verbal:** Many intellectuals love verbal content,
+ but don't really quite get other types of content: movies, music
+ vides (say), and so on.  (Exceptions are made for "respectable"
+ artforms, such as classical music, which have a strong intellectual
+ verbal tradition associated to them.) I've talked to people whose
+ only opinion about the movie _Avatar_ was that the plot and dialogue
+ wasn't very good.  That was to miss the point.  If verbal content is
+ everything then that's a reasonable point of view.  But _Avatar_ has
+ astounding non-verbal content, and those people largely missed that
+ content, or else got hung up on details.
     
 # Writing as a cognitive tool
 
@@ -327,6 +335,46 @@ doing that integration.
 > relationship with text. People currently think of text as
 > information to be consumed. I want text to be an environment to
 > think in.
+
+**Scientific communication as sequential art:** Another of
+[Bret Victor's ideas](http://worrydream.com/#!/ScientificCommunicationAsSequentialArt).
+I was struck by the following, which seems to sum up much of Victor's
+philosophy:
+
+> When an algorithm is described in prose (or code), we are typically
+> given only the rules of the system — we can't see the data or the
+> state. In order to understand what the algorithm is doing, we have
+> to "play computer" and imagine the state in our head. Illustrating
+> the state of an algorithm at each step can make the description
+> dramatically easier to follow.
+
+Furthermore, Victor does this in such a way that's not merely an
+illustration, but there is actually
+
+**Core idea: using multiple representations of concepts, and coupling
+  those representations, so we can interact with them in different
+  ways:** We could imagine doing this to illustrate something like the
+  eigenvalues of a Hermitian matrix.  We could have two coupled
+  descriptions:
+  
+  matrix <=> eigenvalues and eigenvectors
+  
+  We could interact with either description, and see how it affects
+  the other.
+  
+**Scientific communication and comics:** More from Victor:
+
+> Finally, "comic-style" needn't mean characters, dialog, word
+> balloons, or sound effects. Let alone superheroes or anthropomorphic
+> animals. The comic form is about sequences of tightly-integrated
+> words and pictures, together conveying a message more powerfully
+> than the sum of their parts. The potential of this form to explain
+> difficult concepts is unmatched and underused.
+
+I am strikingly reminded of Manny Knill's idea of writing a paper that
+would just be figures to illustrate the Solovay-Kitaev theorem.
+Essentially Manny was proposing exactly what Victor is suggesting
+above.
 
 # Source material
 
