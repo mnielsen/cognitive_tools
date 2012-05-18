@@ -1,4 +1,4 @@
-<!-- 2901 words -->
+<!-- 3237 words -->
 
 <!-- To do: 
 
@@ -28,6 +28,12 @@ thought about the problem, and to collect project ideas.*
   advantage to be found?**
 
 **What principles can we use to build cognitive tools?**
+
+**Example question: What would it take to get the average person to
+understand general relativity?** Could we develop general teaching
+tools to make it that easy?  (C.f. Augustine as the "smartest person
+in the world" due to being able to read without speaking.)  It may be
+that _motivational hacks_ are the key thing here.
 
 **The comparison to self-help:** Self-help gets a bad rap.  Many of
   these software tools have a similar goal, though, which is to
