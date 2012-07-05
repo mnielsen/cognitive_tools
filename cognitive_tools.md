@@ -645,3 +645,15 @@ are some ideas I can bring in from left field?** MIT Media Lab.
 
 **Why aren't corporations good at the full prototype-product
   pipeline?**
+
+
+## Notes on relevant papers
+
+David H. Jonassen and Thomas C. Reeves, "Learning With Technology:
+Using Computers as Cognitive Tools": Alternate terms include cognitive
+technologies, and technologies of mind.  What's the difference between
+this point of view and computer software as media?  It's not so clear
+to me that there is one, except in the sense that tools aim to make
+certain tasks easy that were formerly hard, while media aims to do
+something entirely different (communication).  This paper is obviously
+within the area of educational research.
