@@ -244,17 +244,24 @@ memory alone*.
   point of view.  Of course, ultimately it's often helpful to do both,
   but it's rarely a good idea to leap straight into intensive reading.
 
-# Indices
+# List of cognitive tools
 
-One interesting cognitive technology is the index.
+**Prompting or checklisting:** A simple, powerful pattern is to be led
+  through a series of prompts or checklists.  See, e.g., Gatawande's
+  book on checklists for a good case that this can really improve
+  performance.
+  
+**Choice architecture:** See, e.g., Sunstei and Thaler for evidence
+  that the way choices are presented to us can influence our cognitive
+  capability.
 
-**What makes indices a powerful tool for thought?** They expand the
-  range of information we can find.  When I read a book I no longer
-  need to memorize the details of the contents.  Instead, I can
-  memorize things at a coarser grain, knowing that I can go and look
-  up details when I need.  Basically, an index expands our access to
-  knowledge.  It effectively gives us a bigger database of facts to
-  draw on.
+**Indices:** What makes indices a powerful tool for thought? They
+expand the range of information we can find.  When I read a book I no
+longer need to memorize the details of the contents.  Instead, I can
+memorize things at a coarser grain, knowing that I can go and look up
+details when I need.  Basically, an index expands our access to
+knowledge.  It effectively gives us a bigger database of facts to draw
+on.
 
 **The pattern: Cognitive technologies break bottlenecks in our
   brain:**
