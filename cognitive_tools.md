@@ -1,16 +1,5 @@
 <!-- 4025 words -->
 
-<!-- To do: 
-
-Revise the first two sections.
-
-Revise the section on active reading and explorable explanations.
-
-Go back to Victor's site, and finish reading the explorable
-explanations stuff.
-
--->
-
 *Very rough and incomplete (and often wrong) working notes on how to
 create software tools that "enable people to understand and create in
 unprecedentedly powerful ways" (Bret Victor).  I shall refer to such
@@ -43,6 +32,9 @@ that _motivational hacks_ are the key thing here.
   That shift from passive self-help, which is often vague and
   unactionable, to active self-help (which is by its nature very
   concrete) makes a big difference.
+
+**Cognitive tools make easy cognitive tasks that were formerly hard:**
+  There's a lot in that sentence.  
 
 # What's going on when we multiply two numbers on paper?
 
@@ -262,6 +254,9 @@ memorize things at a coarser grain, knowing that I can go and look up
 details when I need.  Basically, an index expands our access to
 knowledge.  It effectively gives us a bigger database of facts to draw
 on.
+
+**What criteria should we judge a cognitive tool on?** That it expands
+  the range of cognitive tasks that we can reasonably perform.
 
 **The pattern: Cognitive technologies break bottlenecks in our
   brain:**
@@ -656,4 +651,12 @@ this point of view and computer software as media?  It's not so clear
 to me that there is one, except in the sense that tools aim to make
 certain tasks easy that were formerly hard, while media aims to do
 something entirely different (communication).  This paper is obviously
-within the area of educational research.
+within the area of educational research.  One perspective that seems
+really badly lacking from this area: students as independent entities
+with dreams and goals of their own.  If they don't align with the
+tools, then there's no way the tools can matter.  Places a lot of
+emphasis on constructivist versus instructivist models of learning; I
+think desire-based learning is much more important.  A curious fact:
+it's not clear from the paper what success would look like.  
+
+Papert: To read.
