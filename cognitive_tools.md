@@ -1,4 +1,4 @@
-<!-- 3237 words -->
+<!-- 4025 words -->
 
 <!-- To do: 
 
@@ -43,6 +43,130 @@ that _motivational hacks_ are the key thing here.
   That shift from passive self-help, which is often vague and
   unactionable, to active self-help (which is by its nature very
   concrete) makes a big difference.
+
+# What's going on when we multiply two numbers on paper?
+
+Most of us find it challenging to multiply two-digit numbers in our
+heads.  And yet, with a paper and a pencil, it becomes almost trivial
+to do.
+
+This seems unsurprising, because it's so familiar.  But it's really
+quite a remarkable phenomenon: someone hands you some tree pulp and a
+piece of graphite embedded in some wood.  And this lets you trivially
+do tasks that were impossible before.  What, exactly, is going on?
+
+At some level, it seems almost obvious: multiplying two numbers in our
+head taxes our short-term memory.  We lose track of intermediate
+results, and so have to start the calculation over again.  The use of
+pencil and paper gives us a way to overcome the limitations of our
+short-term memory.
+
+That's a nice explanation.  But it's pretty vague.  Let's see if we
+can better understand what's going on by working through a detailed
+example.  Suppose we're trying to multiply 123 by 456.  I'll work
+through the operations involved.  Of course, there's nothing new here
+(!)  --- I'm going through this simply to give us a concrete reference
+point to start thinking about what, exactly, is going on.  Here's the
+example:
+
+>   123
+> x 456
+
+Using the grade school multiplication algorithm, I start by
+multiplying the rightmost digits of both numbers, i.e., 6 by 3.  This
+gives me 18, so I write down 8, and "carry the 1":
+
+>   123
+> x 456
+>   ---
+>     8 carry 1
+
+Incidentally, the way I was taught the multiplication algorithm in
+school, it was usual to write the carried digit as a superscript to
+the left of the 8.  I haven't done that here, because it's
+inconvenient.  I'll come back to this point a bit later.
+
+The next step of the procedure is to multiply the rightmost digit of
+the bottom number (6) by the second-to-right digit of the top number
+(2).  That gives us 12, to which I add the carried result (1), to get
+a total of 13.  So I write down 3, and again carry the 1:
+
+>   123
+> x 456
+>   ---
+>    38 carry 1
+
+Then I multiply 6 by 1, and add the carried digit, to get 7, with
+nothing carried.
+
+>   123
+> x 456
+>   ---
+>   738
+
+Next I do essentially the same procedure, but for the 5 in 456.  It's
+very similar, with lots of single-digit multiplication, carries, and
+additions.  The final result is:
+
+>   123
+> x 456
+>   ---
+>   738
+>  615
+
+And then finally I do it for the 4 in 456:
+
+>   123
+> x 456
+>   ---
+>   738
+>  615
+> 492
+
+Then we add the three rows below the "---". I won't explicitly write
+out all the operations involved --- they're along much the same lines
+as before.  But we get a final result:
+
+>   123
+> x 456
+>   ---
+>   738
+>  615
+> 492
+> ---
+> 56088
+
+What operations were involved? The most complicated arithmetic
+operations involved were just the multiplication or addition of two
+single-digit numbers.  About the most complicated thing we did was the
+very first step: multiplying 6 by 3 to get 18.
+
+**Variations:** An interesting thing about the procedure is that there
+are some ambiguities in how operations are carried out.  For exampe,
+in the second step of the procedure I multiplied 6 by 2 to get 12, and
+then added the carry (1), to get a total of 13.  But I could equally
+well have started with the carry (1), and then added 6 by 2 (12), to
+get 13.  A disadvantage of doing that is that it requires me to keep
+more information in working memory.  Not a lot more, but enough to be
+a little taxing.  An advantage is that I wouldn't have needed to write
+down the carry digit, since in this approach the only time I use the
+carry digit is immediately after learning its value.
+
+**Why is it easier to remember where things are stored than to
+remember what is stored?** The same information is involved.  But I
+don't need to store it in working memory.  It's on the paper.  But
+there's a problem: how do I find it?  Naively, it seems as though I'd
+have to remember the paper locations where the information is stored.
+Why isn't recalling those locations just as hard as remembering the
+information to be stored?  In fact, when people are just learning to
+multiply for the first time, this really is a problem, and they get
+confused about where to look for the information they need.  But
+experienced multipliers have committed an algorithm to long-term
+memory.  That algorithm tells them how to organize the information on
+paper so that they can find the information they need, when they need
+it.  In other words, *by committing an algorithm for organizing and
+finding information to long-term memory, we can outperform short-term
+memory alone*.
 
 # What can we learn from brain research?
 
@@ -413,10 +537,77 @@ above.
 
 **Essay on how online tools can amplify our collective intelligence:**
 
+# Programming languages
+
+**Programming languages are tools for thought**
+
+**Smalltalk arose from a vision of a programming language as a
+  learning environment**
+  
+**[Alan Kay on Smalltalk's design](http://www.smalltalk.org/smalltalk/TheEarlyHistoryOfSmalltalk_Introduction.html):**
+
+> Smalltalk's design--and existence--is due to the insight that
+> everything we can describe can be represented by the recursive
+> composition of a single kind of behavioral building block that hides
+> its combination of state and process inside itself and can be dealt
+> with only through the exchange of messages.
+
+In other words, objects can be decomposed into smaller objects, and so
+on, _ad infinitum_.  This is taking a metaphor from physics, and
+turning it into a way of describing active knowledge.
+
+**What would force-based programming look like?** Could we use
+  potentials?  What about Einstein's idea in GR?  Prolog already uses
+  something like a Lagrangian point of view.
+  
+**How important are programming languages as cognitive tools?** This
+  seems like a key question.  What is maybe interesting about
+  programming languages (and, to some extent, media more generally) is
+  that they can be used to create new types of cognitive tool.  In
+  some sense they're a meta-cognitive tool.  And so as you master
+  programming you can start to build more and more powerful cognitive
+  tools for yourself, and for others. 
+  
+  
+# All Our Knowledge
+
+## Writing
+
+**Writing principle:** It should make ideas vivid.  It should be
+  coherent. 
+
+## Community and collaboration
+
+**It's more important to be polite than to be right:**
+
+
 # Other material
 
 **Task management:** One of the hardest things we can do.
 
+**What should I do next?**
+
+**When do cognitive tools help?  When do they hinder?  When does
+  access to the net make us smarter?  When does it make us stupider?
+  What other effects does it have?**
+
+**What is a cognitive tool?**
+
+**Something that does for habit what Google does for factual memory**
+
+**The intangibility of cognitive tools:** I'm having a strange feeling
+  as I grapple with these notions of cognitive tools.  It's that I
+  can't fully grasp what these tools actually do for us.  They have an
+  intangible quality.  Think about how strange it is to not have the
+  notion of zero, or of negative numbers.  It's easy to overlook these
+  notions.
+  
+**Institutions are some of our best cognitive tools:** SOmetimes
+  unintentionally, too.  People think "Oh, Steve Jobs must be so
+  smart."  But much of his smartness was a _consequence_ of being in
+  charge of Apple, not the other way round, which is how people tend
+  to think.
+  
 **Why are all these projects of Victor's just at the prototype
   stage?** I think the answer is that there's really two very hard
   tasks here.  One is developing interesting prototypes (which Victor
