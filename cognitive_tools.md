@@ -1,4 +1,4 @@
-<!-- 4025 words -->
+<!-- 5296 words -->
 
 *Very rough and incomplete (and often wrong) working notes on how to
 create software tools that "enable people to understand and create in
@@ -533,6 +533,30 @@ above.
 
 **Explore the links on Victor's page as stimulus:**
 
+# The current status of work on cognitive tools
+
+Much of the best work in the early days of computing was aimed at
+developing cognitive tools.  Pioneers such as Douglas Engelbart, Alan
+Kay, and Ted Nelson all struggled, in different ways, with the
+question: "How can we build better cognitive tools?"  For reasons I
+don't entirely understand, today few people are squarely addressing
+this question.  There _is_ good, practical work coming from the many
+companies and organizations which are creating products that change
+how we think.  But that work is oriented toward the development of
+monetizable products, not directly about developing a deep general
+understanding of cognitive tools.  The academic work on the subject
+seems, with some notable exceptions, dull and uninspired.
+
+I find this strange.  Many of humanity's greatest inventions are
+cognitive tools --- language, the alphabet, mathematics.  These tools
+enable our minds to pull themselves up by their mental bootstraps.
+Tools such as word processors and visualization software push this
+tradition further.  It's easy to be snide and remark that _Microsoft
+Word_ doesn't seem like _quite_ as much of a jump as the invention of
+the alphabet.  But the invention of the alphabet didn't happen all at
+once.  It took thousands of years to develop all the ideas used in
+modern alphabets.  We've had word processors for just a few decades.
+
 # Project ideas
 
 **Attention manager:**
@@ -641,6 +665,10 @@ are some ideas I can bring in from left field?** MIT Media Lab.
 **Why aren't corporations good at the full prototype-product
   pipeline?**
 
+**What is an explanation?**
+
+**What is a document?**
+
 
 ## Notes on relevant papers
 
@@ -657,6 +685,123 @@ with dreams and goals of their own.  If they don't align with the
 tools, then there's no way the tools can matter.  Places a lot of
 emphasis on constructivist versus instructivist models of learning; I
 think desire-based learning is much more important.  A curious fact:
-it's not clear from the paper what success would look like.  
+it's not clear from the paper what success would look like.  A very
+interesting obervation: tools most effective when they involve us in
+designing our own representation of knowledge.
 
-Papert: To read.
+Wouter van Joolingen, "Cognitive tools for discovery learning" (1999).
+Another educational article.  
+
+## To read
+
+Papert
+
+# Essay
+
+Suppose someone asks us to multiply 73 by 36 in our head.  If we're an
+ordinary person, chances are that it'll be a struggle.  But, if we're
+given a pencil and paper, all of a sudden we can do it easily.
+
+Familiarity makes us take this for granted.  But if you were viewing
+it from the outside, for the first time, it would appear quite
+remarkable, as though the pencil and paper had somehow granted the
+person doing the multiplication magical powers.
+
+It's not just the pencil and paper which make it easier.  If you give
+the pencil and paper to an untrained person, chances are that it will
+help only a little with the multiplication.  
+
+No, what makes it easier is pencil, paper, and an \emph{idea} --- the
+multiplication process which most of us learn in school.
+
+In fact, there are many variations on the multiplication process.  And
+some variations make the multiplication easier, while others make it
+harder.  In other words, how much easier multiplication becomes
+depends on the quality of the idea.
+
+The question I want to address: what makes a good cognitive tool?
+
+*A priori* we don't have a good instintive feeling for what makes a
+ good cognitive tool.
+
+
+What we'd really like is two things: (1) a *predictive theory* which
+tells us what effect a particular cognitive tool will have; and (2)
+design principles that make it easy to find cognitive tools which have
+particular desired impacts.
+
+We've made a start on these things with (on the academic side) the
+study of human-comuter interaction and computer-supported co-operative
+work, and (on the commercial side) design and marketing.  But we a
+long way from a truly predictive theory.
+
+Here's the
+example:
+
+>   123
+> x 456
+
+Using the grade school multiplication algorithm, I start by
+multiplying the rightmost digits of both numbers, i.e., 6 by 3.  This
+gives me 18, so I write down 8, and "carry the 1":
+
+>   123
+> x 456
+>   ---
+>     8 carry 1
+
+Incidentally, the way I was taught the multiplication algorithm in
+school, it was usual to write the carried digit as a superscript to
+the left of the 8.  I haven't done that here, because it's
+inconvenient.  I'll come back to this point a bit later.
+
+The next step of the procedure is to multiply the rightmost digit of
+the bottom number (6) by the second-to-right digit of the top number
+(2).  That gives us 12, to which I add the carried result (1), to get
+a total of 13.  So I write down 3, and again carry the 1:
+
+>   123
+> x 456
+>   ---
+>    38 carry 1
+
+Then I multiply 6 by 1, and add the carried digit, to get 7, with
+nothing carried.
+
+>   123
+> x 456
+>   ---
+>   738
+
+Next I do essentially the same procedure, but for the 5 in 456.  It's
+very similar, with lots of single-digit multiplication, carries, and
+additions.  The final result is:
+
+>   123
+> x 456
+>   ---
+>   738
+>  615
+
+And then finally I do it for the 4 in 456:
+
+>   123
+> x 456
+>   ---
+>   738
+>  615
+> 492
+
+Then we add the three rows below the "---". I won't explicitly write
+out all the operations involved --- they're along much the same lines
+as before.  But we get a final result:
+
+>   123
+> x 456
+>   ---
+>   738
+>  615
+> 492
+> ---
+> 56088
+
