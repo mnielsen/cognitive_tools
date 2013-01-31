@@ -1,11 +1,15 @@
-<!-- 5296 words -->
+Rough and incomplete working notes on how to create tools that "enable
+people to understand and create in unprecedentedly powerful ways"
+(Bret Victor).  I shall refer to such tools as _cognitive tools_.  The
+purpose of the notes is to think about the problem, to understand some
+of what other people have thought about the problem, and to collect
+project ideas.
 
-*Very rough and incomplete (and often wrong) working notes on how to
-create software tools that "enable people to understand and create in
-unprecedentedly powerful ways" (Bret Victor).  I shall refer to such
-tools as **cognitive tools**.  The purpose of the notes is to think
-about the problem, to understand some of what other people have
-thought about the problem, and to collect project ideas.*
+**Example question: What would it take to get the average person to
+understand general relativity?** Could we develop general cognitive
+tools to make it that easy?  (C.f. Augustine as the "smartest person
+in the world" due to being able to read without speaking.)  It may be
+that _motivational hacks_ are the key.
 
 **Cognitive tools to think about:** reading, writing, conversation,
   any algorithm, Mathematica, oblique strategies, the calendar, any
@@ -18,11 +22,6 @@ thought about the problem, and to collect project ideas.*
 
 **What principles can we use to build cognitive tools?**
 
-**Example question: What would it take to get the average person to
-understand general relativity?** Could we develop general teaching
-tools to make it that easy?  (C.f. Augustine as the "smartest person
-in the world" due to being able to read without speaking.)  It may be
-that _motivational hacks_ are the key thing here.
 
 **The comparison to self-help:** Self-help gets a bad rap.  Many of
   these software tools have a similar goal, though, which is to
@@ -668,6 +667,205 @@ are some ideas I can bring in from left field?** MIT Media Lab.
 **What is an explanation?**
 
 **What is a document?**
+
+# Cognitive tools and super-realist art
+
+_This material is adapted from an essay I wrote about super-realist
+art_
+
+Let me show you an example where super-realist art is used to change
+how people think:
+
+<iframe width="640" height="480" src="http://www.youtube.com/embed/hVimVzgtD6w#205" frameborder="0" allowfullscreen></iframe>
+
+Listen to the audience cheer and whoop at 5:02.  The presenter, Hans
+Rosling, has taken four decades of United Nations' data about family
+size and life expectancy in different countries, and animated the data
+so we can see it change over time.  Sounds simple enough.  But by
+presenting the data in this way, Rosling enables the audience to make
+a startling discovery.  Most people in the audience, I expect, grew up
+believing that there is a sharp distinction between rich and poor
+countries, that people in rich countries live much longer, and have
+much smaller families.  Certainly, I was brought up with this story.
+What the video reveals is that while this story was true in the 1960s
+and 1970s, it is no longer true.  The world has changed dramatically,
+and we are challenged to rethink what we believe.  Even if we suspect
+the video is misleading, the onus is on us to explain why it's wrong,
+and what evidence we have for an alternate view of the world.
+
+Rosling's video is super-realist art, revealing a previously hidden
+world.  But it also changes how we think, and so it's also a cognitive
+tool.  You may perhaps worry about whether it's the video itself which
+is a cognitive tool, or is the cognitive tool really the software
+which Rosling used to analyse the data and create the video? In fact,
+the distinction is more subtle than it first appears.  The video was
+perhaps constructed through dozens of intermediate iterations,
+experimenting with many different ways of representing the data.  Each
+of those iterations informed the thinking that went .  And so for the
+most part I won't try to make clear separation between cognitive tools
+and their outputs.
+
+Cognitive tools and super-realist art are closely related.  They're
+not the same --- a calculator is a cognitive tool, but it would be a
+most unusual calculator that could be considered (or which produced)
+super-realist art.  However, consider examples of super-realist art
+such as the light-in-a-bottle, _Water in Suspense_, and the Hubble
+Extreme Deep Field.  Each vividly represents new aspects of reality.
+Each suggests many questions.  Personally, I've found that they've
+each changed how I think about light, about water, and about the
+Universe.  And so these pieces of super-realist art are also cognitive
+tools.
+
+This is not to say that the _point_ of super-realist art is to create
+cognitive tools.  A Hollywood movie mogul of old --- some say it was
+Samuel Goldwyn --- supposedly rejected a moralizing movie script with
+the words: "If you want to send a message, send a telegram".  Taking a
+similar stance, artists such as Juan Geuer often create art that is
+principally for art's sake.  The purpose of Geuer's _Water in
+Suspense_ is not to provide us with a new tool for thought.  Rather,
+it is to reveal an unsuspected beauty inside a drop of water.  It is
+fortuitous that it also stimulates new ways of thinking about water,
+but it is not the point.  By contrast, Rosling's software is primarily
+a cognitive tool, enabling new ways of thinking. It uses beauty as a
+vehicle, and so it also produces super-realist art, but this is not
+its primary purpose.  And so while super-realist art and cognitive
+tools overlap, we should analyse them on separate grounds.
+
+I find the creation of new and better cognitive tools inspiring.  It's
+something I'd like to contribute to.  And so I will conclude this
+essay with two heuristics which both help make better cognitive tools
+_and_ making better super-realist art.
+
+**Radical concreteness:** The first concerns a heuristic I call
+_radical concreteness_.  To explain radical concreteness, let me
+describe another cognitive tool and super-realist art piece, the
+computer game [http://braid-game.com/](_Braid_).  One of the
+best-selling computer games of 2008, _Braid_ appears at first glance
+to be a standard platform game.  It uses many common elements of the
+platform genre: there are puzzles to be solved, and six worlds to
+explore.  But _Braid_ has a beautiful twist.  Each world gives the
+player the ability to manipulate time in a different way.  It might be
+a simple ability to rewind time.  Or perhaps to slow time down.  Or
+some more complex manipulation.  Furthermore, the puzzles are
+ingeniously designed so that their solution requires you to manipulate
+time in just the right way.
+
+The psychological effect of playing _Braid_ is remarkable.  My
+professional background is as a theoretical physicist, and like many
+theoretical physicists I've thought about different models of time.
+But _Braid_ pushed my thinking further. It immerses you in concrete,
+vividly rendered models of how time can be altered.  And success in
+the game demands that you internalize those models.  I found myself
+_dreaming_ about new models of time.  Braid was a cognitive tool to
+help thinking about time.
+
+What makes Rosling's animation and _Braid_ so powerful is that they
+make vivid and concrete what would otherwise be vague and abstract.
+It's tempting to phrase this as a heuristic: "develop representations
+which are as vivid and concrete as possible".  The problem with this
+heuristic is that it's not strong enough.  It's an easily-ignored
+platitude.  What examples like Rosling's statistics and _Braid_ really
+show is that we routinely and dramatically underestimate how vivid and
+how concrete representations can be made.  We look at the UN
+statistics, and see only a table, or perhaps a few graphs.  We don't
+challenge ourselves to find a way of showing the data that would cause
+an auditorium full of people to erupt in wild cheering.  Or we think
+about models of time, and play with them mathematically, but never
+imagine that if put into the right form we'd start to see them in our
+dreams.  It's a failure of the imagination.  And so we can say, with
+only a little dramatic license: _you can **always** find a way to make
+your representation more vivid and more concrete_.  This is a doctrine
+of _radical concreteness_.
+    
+Let me give you an example where I think this idea of radical
+concreteness could be pushed much further.  In October of 2012, a team
+of researchers at MIT announced that they've developed a
+[game](http://gamelab.mit.edu/games/a-slower-speed-of-light/) which
+show what it's like to live in a world where the effects of relativity
+are obvious.  The idea is to reduce the speed of light to the kind of
+velocity we're familiar with in the everyday world, so that it's
+possible to see effects such as time dilation, length contraction, the
+Doppler effect, and so on.  By playing the game, you begin to build up
+intuition about what it's like to live in a relatavistic world.
+
+I won't show you the game trailer (see the game link above).  Frankly,
+the trailer doesn't make it so easy to see the relativistic effects.
+Instead, I'll show you an older visualization developed by XXX and
+XXX.  It shows what it's would be like to drive down a highway, if the
+speed of light was much slower. The video is a bit fuzzy, but stick
+with it:
+
+<iframe width="640" height="480" src="http://www.youtube.com/embed/JQnHTKZBTI4?rel=0" frameborder="0" allowfullscreen></iframe>
+
+In worlds like these you can actually *experience* what it's like for
+time to dilate, for space to contract, and so on. And it's easy to
+imagine games which, like _Braid_, would push this idea a long way.
+
+We can go further.  In 1994, a scientist named
+[Miguel Alcubierre](http://en.wikipedia.org/wiki/Miguel_Alcubierre)
+[announced](http://arxiv.org/abs/gr-qc/0009013) to the world that he'd
+discovered a _warp drive_.  Now, of course, you've no doubt heard that
+it's impossible for objects to travel faster than light.  This is
+based on a result of special relativity, which shows that
+faster-than-light objects could be used to violate causality.
+However, special relativity is really an approximation to a deeper
+theory --- general relativity.  Alcubierre was a specialist in
+studying simulations of general relativity, and he'd built up a lot of
+intuition about how spacetime behaves.  He used that intuition to find
+a solution to general relativity with the remarkable property that an
+object could move faster than light (when viewed in the usual frames
+of reference), without any violation of causality occurring.
+
+I won't try to describe.  But after I'd read about both Alcubierre's
+drive, and XXX and XXX's simulations of relativity, it started me
+wondering.  We've seen lots of games that let people design levels or
+design dungeons.  Why not a game that lets people design their own
+spacetimes?  It'd be challenging to make the game fun --- there's no
+doubt players would need warming up.  But I'll bet it could be done!
+After all, one of the most popular games of all time was about time
+travel.
+
+
+**Multiple representations:** One of the people who is think hard
+about cognitive tools is Bret Victor.  In a remarkable presentation
+made in 2012, he develops a single, simple principle: it should XXXX.
+This sounds simple, but has many consequences. Take a look at the
+following video from XXX to XXX where he shows what this principle
+
+XXX
+
+Like any powerful principle, Victor's principle is generative.  It can
+be applied to a large number of different .  He shows how it can be
+applied to XXX.  To XXX.  And it's easy to think of.  I imagine myself
+as CEO of PIxar, and asking what would I do?  An obvious application
+is to wonder: should we buy ourselves enough computing power that
+artists can see their designs rendered in near real-time?  Yes, it
+would cost a lot --- but it would also totally transform the artist's
+work experience.  Would it be worth it?  I don't know.  But it's 
+
+I'd like to explore beyond Victor's principle.  Lots of things have
+multiple representations.  And we get power by understanding how those
+representations relate.  So you can generalize Victor's principle:
+
+> 
+
+
+## Problem: understanding complex tools:
+
+How should we understand a model with a trillion parameters?  We
+*have* these kinds of models.  Google's translation service uses
+incredibly complicated models of human language.  In some ways Google
+knows more about human language than any one person.  But how can we
+make sense of the model?  And we're getting lots of such models.  My
+guess is that we're ultimately going to end with mighty towers of
+tools: trillion parameter models which will get re-understood as
+million-parameter models, which can then be understood in sixteen
+hundred different ways.
+
+
+My instinct here is right.  What do we currently have trouble with
+doing?  Where are the current limits where we'd like to pull our
+cognition futher?
 
 
 ## Notes on relevant papers
