@@ -1,3 +1,5 @@
+# Working notes on cognitive tools
+
 Rough and incomplete working notes on how to create tools that "enable
 people to understand and create in unprecedentedly powerful ways"
 (Bret Victor).  I shall refer to such tools as _cognitive tools_.  The
@@ -24,16 +26,21 @@ that _motivational hacks_ are the key.
 
 
 **The comparison to self-help:** Self-help gets a bad rap.  Many of
-  these software tools have a similar goal, though, which is to
-  improve the way we think.  Yet a concrete tool like (say) org mode
-  seems to have significantly more impact than lots of what you see in
-  the self-help books.  It's a type of executable or active self-help.
-  That shift from passive self-help, which is often vague and
-  unactionable, to active self-help (which is by its nature very
-  concrete) makes a big difference.
+these software tools have a similar goal, though, which is to improve
+the way we think.  Yet a concrete tool like (say) org mode seems to
+have significantly more impact than lots of what you see in the
+self-help books.  It's a type of executable or active self-help.  That
+shift from passive self-help, which is often vague and unactionable,
+to active self-help (which is by its nature very concrete) makes a big
+difference.
 
-**Cognitive tools make easy cognitive tasks that were formerly hard:**
-  There's a lot in that sentence.  
+# Observations
+
+**Cognitive tools often make easy cognitive tasks that were formerly
+hard:** It requires careful thought to understand why (and when)
+automating a formerly difficult task can make us smarter.  Sometimes,
+solving a big problem, X, has a bottleneck, Y.  Absent a way of
+avoiding the bottleneck entirely, we need to find a way of solving Y.
 
 # What's going on when we multiply two numbers on paper?
 
