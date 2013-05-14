@@ -7,22 +7,16 @@ purpose of the notes is to think about the problem, to understand some
 of what other people have thought about the problem, and to collect
 project ideas.
 
-**Example question: What would it take to get the average person to
-understand general relativity?** Could we develop general cognitive
-tools to make it that easy?  (C.f. Augustine as the "smartest person
-in the world" due to being able to read without speaking.)  It may be
-that _motivational hacks_ are the key.
+**What would it take to get the average person to understand general
+relativity?** Could we develop general cognitive tools to make it that
+easy?  (C.f. Augustine as the "smartest person in the world" due to
+being able to read without speaking.)  It may be that _motivational
+hacks_ are the key.
 
-**Cognitive tools to think about:** reading, writing, conversation,
-  any algorithm, Mathematica, oblique strategies, the calendar, any
-  method for monitoring oneself (e.g., lifelogging), money, attention
-  managers, games, flashcards, libraries, programming languages,
-  github, Google, table of contents, page numbers, cities.
 
 **What can I contribute?  Where, if anywhere, is my comparative
   advantage to be found?**
 
-**What principles can we use to build cognitive tools?**
 
 
 **The comparison to self-help:** Self-help gets a bad rap.  Many of
@@ -36,11 +30,16 @@ difference.
 
 # Observations
 
+**What principles can we use to build cognitive tools?**
+
 **Cognitive tools often make easy cognitive tasks that were formerly
 hard:** It requires careful thought to understand why (and when)
 automating a formerly difficult task can make us smarter.  Sometimes,
 solving a big problem, X, has a bottleneck, Y.  Absent a way of
 avoiding the bottleneck entirely, we need to find a way of solving Y.
+
+**Principle: We could all do with having more cues in our life:** I
+  wonder about having a unique buzzer for each habit I'd like cued?
 
 # What's going on when we multiply two numbers on paper?
 
@@ -166,6 +165,13 @@ it.  In other words, *by committing an algorithm for organizing and
 finding information to long-term memory, we can outperform short-term
 memory alone*.
 
+**Reading, learning, and emotion:** Some of the power of reading is
+  that it lets us learn from others, when we otherwise couldn't.  We
+  have a major cultural deficit, though, which is that conventionally
+  we strip much of the emotional content.  Scientific prose tends to
+  be dry, not because it must, but because it is forced to be so by
+  convention.  It thus loses much of its power to teach.
+
 # What can we learn from brain research?
 
 **Look for bottlenecks in cognition:** What are our limits?  Can we
@@ -175,7 +181,8 @@ memory alone*.
   memory?** I wonder if there's a way of using visual cues to
   effectively outsource working memory?  We already do this, for
   example, when we multiply two numbers on paper.  Might there be a
-  slick way we can do this more generally?
+  slick way we can do this more generally?  Whiteboards are a way of
+  doing this.
   
 **Why not ask some brain scientists what the limits and bottlenecks of
   our minds are?** My sense is that one thing we could do with a lot
@@ -190,15 +197,15 @@ memory alone*.
   something *vivid*?
   
 **The poverty of the verbal:** Many intellectuals love verbal content,
- but don't really quite get other types of content: movies, music
- vides (say), and so on.  (Exceptions are made for "respectable"
- artforms, such as classical music, which have a strong intellectual
- verbal tradition associated to them.) I've talked to people whose
- only opinion about the movie _Avatar_ was that the plot and dialogue
- wasn't very good.  That was to miss the point.  If verbal content is
- everything then that's a reasonable point of view.  But _Avatar_ has
- astounding non-verbal content, and those people largely missed that
- content, or else got hung up on details.
+but don't really quite get other types of content: movies, music
+videos (say), and so on.  (Exceptions are made for "respectable"
+artforms, such as classical music, which have a strong intellectual
+verbal tradition associated to them.) I've talked to people whose only
+opinion about the movie _Avatar_ was that the plot and dialogue
+weren't very good.  That was to miss the point.  If verbal content is
+everything then that's a reasonable point of view.  But _Avatar_ has
+astounding non-verbal content, and those people largely missed that
+content, or else got hung up on details.
     
 # Writing as a cognitive tool
 
@@ -244,14 +251,20 @@ memory alone*.
 
 # List of cognitive tools
 
+**Cognitive tools to think about:** reading, writing, conversation,
+  any algorithm, Mathematica, oblique strategies, the calendar, any
+  method for monitoring oneself (e.g., lifelogging), money, attention
+  managers, games, flashcards, libraries, programming languages,
+  github, Google, table of contents, page numbers, cities.
+
 **Prompting or checklisting:** A simple, powerful pattern is to be led
   through a series of prompts or checklists.  See, e.g., Gatawande's
   book on checklists for a good case that this can really improve
   performance.
   
-**Choice architecture:** See, e.g., Sunstei and Thaler for evidence
-  that the way choices are presented to us can influence our cognitive
-  capability.
+**Choice architecture:** See, e.g., Sunstei and Thaler's book _Nudge_
+for discussion of how the way choices are presented to us can
+influence our cognitive capability.
 
 **Indices:** What makes indices a powerful tool for thought? They
 expand the range of information we can find.  When I read a book I no
